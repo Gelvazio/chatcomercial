@@ -1,0 +1,146 @@
+/*
+* Desenvolvedor: Silvanei Martins;
+* Email: silvaneimartins_rcc@hotmail.com;
+* WhatsApp: (69) 9.8405-2620;  
+* Projeto comercial Chat Comercial;
+*/
+.login {
+    background-color: var(--color-background);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.login__container {
+    padding: 80px;
+    background-color: var(--color-shape);
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.12) 0 3px;
+}
+
+.login__container > h1 {
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+}
+
+.login__input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-shape);
+    padding: 10px 50px;
+}
+
+.login__inputEmail {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-background);
+    width: 110%;
+    border-radius: 7px;
+}
+
+.login__inputEmail > input {
+    background-color: var(--color-background);
+    border: none;
+    width: 80%;
+    font-size: 16px;
+    color: var(--color-secondary);
+    padding: 6px;
+    outline: currentcolor none 0px;
+}
+
+.login__inputPassword  {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-background);
+    width: 110%;
+    border-radius: 7px;
+}
+
+.login__inputPassword  > input {
+    background-color: var(--color-background);
+    border: none;
+    width: 80%;
+    margin-left: 5px;
+    font-size: 16px;
+    color: var(--color-secondary);
+    outline: currentcolor none 0px;
+}
+
+.login__inputPassword > .MuiSvgIcon-root { 
+    color: var(--color-secondary);
+    padding: 10px;
+}
+
+.login__inputEmail > .MuiSvgIcon-root {
+    color: var(--color-secondary);
+    padding: 10px; 
+}
+
+.login__input > span {
+    margin-top: 5px;
+    font-size: 15px;
+    color: var(--color-secondary);
+    font-weight: 600;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.login__input > span:hover {
+    color: var(--color-gray);
+}
+
+.login__buttonEntrar {
+    margin-bottom: 5px;
+}
+
+.login__buttonEntrar > button {
+    margin-top: 20px;
+    width: 84%;
+    height: 50px;
+    border-radius: 6px;
+    text-transform: inherit !important;
+    background-color: var(--color-background); 
+    color: var(--color-secondary);
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.login__buttonEntrar > button:hover {
+    background-color: var(--color-black);
+}
+
+.login__buttonGoogle {
+    display: flex;
+}
+
+.login__buttonGoogle > button {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 240px;
+    height: 50px;
+    border-radius: 6px;
+    text-transform: inherit !important;
+    background-color: var(--color-background); 
+    color: var(--color-secondary);
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.login__buttonGoogle > button:hover {
+    background-color: var(--color-black);
+}
+
+.login__buttonGoogle  > h4 {
+    font-size: 15px;
+    color: var(--color-secondary);
+    white-space: nowrap;
+    margin-right: 5px;
+    margin-left: 32px;
+    align-self: center;
+}
+
+.password-toogle-icon {
+    color: var(--color-secondary);
+}

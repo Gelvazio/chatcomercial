@@ -1,0 +1,75 @@
+/*
+* Desenvolvedor: Silvanei Martins;
+* Email: silvaneimartins_rcc@hotmail.com;
+* WhatsApp: (69) 9.8405-2620;  
+* Projeto comercial Chat Comercial;
+*/
+.recuperarsenha {
+    background-color: var(--color-background);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.recuperarsenha__container {
+    padding: 60px;
+    background-color: var(--color-shape);
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.12) 0 3px;
+}
+
+.recuperarsenha__titulo {
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+}
+
+.recuperarsenha__input {
+    display: flex;
+    background-color: var(--color-background);
+    border-radius: 7px;
+    width: 350px;
+    margin: 0px auto;
+}
+
+.recuperarsenha__input > input {
+    background-color: var(--color-background);
+    border: none;
+    width: 80%;
+    font-size: 16px;
+    color: var(--color-secondary);
+    padding: 6px;
+    outline: currentcolor none 0px;
+}
+
+.recuperarsenha__input > .MuiSvgIcon-root { 
+    color: var(--color-secondary);
+    padding: 10px;
+}
+
+.recuperarsenha__button > button {
+    margin-top: 60px;
+    width: 250px;
+    height: 45px;
+    border-radius: 6px;
+    text-transform: inherit !important;
+    background-color: var(--color-background); 
+    color: var(--color-secondary);
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.recuperarsenha__button > button:hover {
+    background-color: var(--color-black);
+}
+
+.recuperarsenha__voltar > h1 {
+    margin-top: 10px;
+    color: var(--color-gray);
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.recuperarsenha__voltar > h1:hover {
+    color: var(--color-secondary);
+    cursor: pointer;
+}

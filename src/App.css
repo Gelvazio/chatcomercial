@@ -1,0 +1,23 @@
+/*
+* Desenvolvedor: Silvanei Martins;
+* Email: silvaneimartins_rcc@hotmail.com;
+* WhatsApp: (69) 9.8405-2620;  
+* Projeto comercial Chat Comercial;
+*/
+.app {
+    display: grid;
+    place-items: center;
+    background-color: var(--color-background);
+    height: 100vh;
+}
+
+.app__body { 
+    display: flex;
+    background-color: var(--color-shape);
+    margin-top: -5px;
+    border-radius: 8px;
+    height: 95vh;
+    width: 95vw;
+    box-shadow: -1px 4px 30px -6px rgba(0,0,0,0.2);
+}
+

@@ -1,0 +1,40 @@
+/*
+* Desenvolvedor: Silvanei Martins;
+* Email: silvaneimartins_rcc@hotmail.com;
+* WhatsApp: (69) 9.8405-2620;  
+* Projeto comercial Chat Comercial;
+*/
+*{
+    margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+    --color-background: #121214;
+    --color-green: #04d361;
+    --color-red: #e83f5b;
+    --color-orange: #fd951f;
+    --color-yellow: #f7df1e;
+    --color-primary: #8257e6;
+    --color-primary-hover: #9466ff;
+    --color-secondary: #e1e1e6;
+    --color-gray: #808080;
+    --color-text: #a8a8b3;
+    --color-support: #737380;
+    --color-shape: #202024;
+    --color-shape-hover: #29292e;
+    --color-icons: #41414d;
+    --color-borders: #323238;
+    --color-black: #0d0d0f;
+}
