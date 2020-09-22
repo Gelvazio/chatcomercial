@@ -13,6 +13,11 @@
 </p>
 
 <h4 align="left">
+  Vídeo de demonstração do Projeto Chat Comercial.
+</h4>
+https://youtu.be/mplH9obhAeg
+
+<h4 align="left">
   Demotração do layout desenvolvido.
 </h4>
 
